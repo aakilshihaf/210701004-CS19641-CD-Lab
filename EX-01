@@ -22,7 +22,6 @@ return 1;
 }
 return 0;
 }
-210701033 – ARAVIND S
 int is_operator(char token) {
 return strchr(operators, token) != NULL;
 }
